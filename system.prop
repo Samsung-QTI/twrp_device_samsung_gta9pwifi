@@ -1,0 +1,5 @@
+ro.display.series=Samsung Galaxy Tab A9+
+ro.product.board=holi
+ro.board.platform=holi
+sys.usb.controller=4e00000.dwc3
+ro.boot.dynamic_partitions=true

@@ -1,0 +1,88 @@
+/lib/modules/usb_notify_layer.ko:
+/lib/modules/clk-dummy.ko: /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_boot_stat.ko: /lib/modules/sec_class.ko
+/lib/modules/qpnp-power-on.ko:
+/lib/modules/gcc-holi.ko: /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_qc_upload_cause.ko: /lib/modules/sec_crashkey_long.ko /lib/modules/sec_debug.ko /lib/modules/sec_key_notifier.ko /lib/modules/sec_upload_cause.ko
+/lib/modules/sec_debug_region.ko:
+/lib/modules/tcpc_rt1711h.ko: /lib/modules/tcpc_class.ko
+/lib/modules/pinctrl-blair.ko: /lib/modules/pinctrl-msm.ko
+/lib/modules/focaltech_tp.ko: /lib/modules/sec_cmd.ko /lib/modules/msm_drm.ko /lib/modules/v4l2-mem2mem.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/ocp2138.ko /lib/modules/wt_chg.ko /lib/modules/hardware_info.ko /lib/modules/spmi-pmic-arb.ko /lib/modules/_qcom_scm.ko /lib/modules/sec_class.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_arm64_ap_context.ko: /lib/modules/sec_debug_region.ko
+/lib/modules/_qcom_scm.ko:
+/lib/modules/phy-qcom-ufs-qmp-v4-yupik.ko: /lib/modules/phy-qcom-ufs.ko
+/lib/modules/clk-qcom.ko: /lib/modules/proxy-consumer.ko
+/lib/modules/sec_reboot_cmd.ko:
+/lib/modules/subsystem_restart.ko: /lib/modules/qmi_helpers.ko /lib/modules/sec_debug.ko
+/lib/modules/proxy-consumer.ko:
+/lib/modules/msm-poweroff.ko: /lib/modules/qpnp-power-on.ko /lib/modules/_qcom_scm.ko
+/lib/modules/spi-msm-geni.ko: /lib/modules/msm-geni-se.ko
+/lib/modules/sec_key_notifier.ko:
+/lib/modules/mpm.ko:
+/lib/modules/iommu-logger.ko:
+/lib/modules/sec_qc_rbcmd.ko: /lib/modules/sec_reboot_cmd.ko
+/lib/modules/qnoc-holi.ko: /lib/modules/qnoc-qos.ko /lib/modules/icc-rpm.ko /lib/modules/rpm-smd.ko
+/lib/modules/sec_crashkey_long.ko: /lib/modules/sec_debug.ko /lib/modules/sec_key_notifier.ko
+/lib/modules/qcom_glink_smem.ko: /lib/modules/qcom_glink_native.ko /lib/modules/subsystem_restart.ko /lib/modules/qmi_helpers.ko /lib/modules/smem.ko /lib/modules/sec_debug.ko
+/lib/modules/sec_log_buf.ko:
+/lib/modules/qmi_helpers.ko:
+/lib/modules/msm_dma_iommu_mapping.ko:
+/lib/modules/rpm-smd.ko:
+/lib/modules/jadard_touch.ko: /lib/modules/sec_cmd.ko /lib/modules/msm_drm.ko /lib/modules/v4l2-mem2mem.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/ocp2138.ko /lib/modules/wt_chg.ko /lib/modules/hardware_info.ko /lib/modules/spmi-pmic-arb.ko /lib/modules/_qcom_scm.ko /lib/modules/sec_class.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/qnoc-qos.ko:
+/lib/modules/refgen.ko: /lib/modules/proxy-consumer.ko
+/lib/modules/grdm.ko:
+/lib/modules/phy-qcom-ufs-qmp-v3.ko: /lib/modules/phy-qcom-ufs.ko
+/lib/modules/sec_cmd.ko: /lib/modules/sec_class.ko
+/lib/modules/icnl9951r.ko: /lib/modules/sec_cmd.ko /lib/modules/msm_drm.ko /lib/modules/v4l2-mem2mem.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/ocp2138.ko /lib/modules/wt_chg.ko /lib/modules/hardware_info.ko /lib/modules/spmi-pmic-arb.ko /lib/modules/_qcom_scm.ko /lib/modules/sec_class.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/v4l2-mem2mem.ko:
+/lib/modules/sec_qc_rdx_bootdev.ko: /lib/modules/sec_debug.ko
+/lib/modules/qcom_hwspinlock.ko:
+/lib/modules/sec_upload_cause.ko:
+/lib/modules/himax_mmi.ko: /lib/modules/sec_cmd.ko /lib/modules/msm_drm.ko /lib/modules/v4l2-mem2mem.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/ocp2138.ko /lib/modules/wt_chg.ko /lib/modules/hardware_info.ko /lib/modules/spmi-pmic-arb.ko /lib/modules/_qcom_scm.ko /lib/modules/sec_class.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/gcc-blair.ko: /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/usb_notifier_qcom.ko: /lib/modules/usb_notify_layer.ko
+/lib/modules/i2c-msm-geni.ko: /lib/modules/msm-geni-se.ko
+/lib/modules/memory_dump_v2.ko: /lib/modules/_qcom_scm.ko
+/lib/modules/sec_class.ko:
+/lib/modules/cqhci-crypto.ko:
+/lib/modules/tcpc_class.ko:
+/lib/modules/smem.ko:
+/lib/modules/sgm41542_charger.ko: /lib/modules/rt_pd_manager.ko /lib/modules/usb_notify_layer.ko /lib/modules/hardware_info.ko /lib/modules/tcpc_class.ko
+/lib/modules/icc-rpm.ko: /lib/modules/rpm-smd.ko
+/lib/modules/qcom_glink_native.ko: /lib/modules/subsystem_restart.ko /lib/modules/qmi_helpers.ko /lib/modules/sec_debug.ko
+/lib/modules/ocp2138.ko:
+/lib/modules/qcom_glink_rpm.ko: /lib/modules/qcom_glink_native.ko /lib/modules/subsystem_restart.ko /lib/modules/qmi_helpers.ko /lib/modules/sec_debug.ko
+/lib/modules/sc89890h_charger.ko: /lib/modules/hardware_info.ko
+/lib/modules/phy-qcom-ufs.ko:
+/lib/modules/sec_arm64_fsimd_debug.ko: /lib/modules/sec_debug.ko
+/lib/modules/qcom-arm-smmu-mod.ko: /lib/modules/iommu-logger.ko /lib/modules/secure_buffer.ko /lib/modules/_qcom_scm.ko
+/lib/modules/cx25890h_charger.ko: /lib/modules/rt_pd_manager.ko /lib/modules/usb_notify_layer.ko /lib/modules/hardware_info.ko /lib/modules/tcpc_class.ko
+/lib/modules/stub-regulator.ko:
+/lib/modules/rpm-smd-regulator.ko: /lib/modules/rpm-smd.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_qc_msm_poweroff.ko: /lib/modules/sec_qc_rbcmd.ko /lib/modules/sec_reboot_cmd.ko /lib/modules/msm-poweroff.ko /lib/modules/qpnp-power-on.ko /lib/modules/_qcom_scm.ko
+/lib/modules/cqhci-crypto-qti.ko: /lib/modules/cqhci-crypto.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko
+/lib/modules/sec_param.ko:
+/lib/modules/hwkm.ko:
+/lib/modules/cw2217_fuel_gauge.ko: /lib/modules/hardware_info.ko
+/lib/modules/pinctrl-msm.ko:
+/lib/modules/msm_drm.ko: /lib/modules/v4l2-mem2mem.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/ocp2138.ko /lib/modules/wt_chg.ko /lib/modules/hardware_info.ko /lib/modules/spmi-pmic-arb.ko /lib/modules/_qcom_scm.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/hardware_info.ko:
+/lib/modules/ufshcd-crypto-qti.ko: /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko
+/lib/modules/crypto-qti-hwkm.ko: /lib/modules/hwkm.ko
+/lib/modules/secure_buffer.ko: /lib/modules/_qcom_scm.ko
+/lib/modules/rt_pd_manager.ko: /lib/modules/usb_notify_layer.ko /lib/modules/tcpc_class.ko
+/lib/modules/cqhci.ko: /lib/modules/cqhci-crypto.ko
+/lib/modules/ufs-qcom.ko: /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/sec_class.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_crashkey.ko: /lib/modules/sec_debug.ko /lib/modules/sec_key_notifier.ko
+/lib/modules/wt_chg.ko:
+/lib/modules/msm-geni-se.ko:
+/lib/modules/phy-qcom-ufs-qrbtc-sdm845.ko: /lib/modules/phy-qcom-ufs.ko
+/lib/modules/aw35615_whole.ko: /lib/modules/tcpc_class.ko
+/lib/modules/clk-smd-rpm.ko: /lib/modules/rpm-smd.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/sec_debug.ko:
+/lib/modules/crypto-qti-common.ko: /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko
+/lib/modules/qcom_ipcc.ko:
+/lib/modules/pinctrl-holi.ko: /lib/modules/pinctrl-msm.ko
+/lib/modules/sdhci-msm.ko: /lib/modules/cqhci-crypto-qti.ko /lib/modules/cqhci.ko /lib/modules/cqhci-crypto.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko /lib/modules/pinctrl-msm.ko /lib/modules/clk-qcom.ko /lib/modules/proxy-consumer.ko
+/lib/modules/spmi-pmic-arb.ko:
