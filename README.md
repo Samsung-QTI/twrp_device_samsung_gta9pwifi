@@ -3,13 +3,13 @@
 The Samsung Galaxy Tab A9+ (codename *gta9pwifi*) is an 11.0″ mid-range Wi-Fi-only tablet introduced in October 2023
 
 ## Disclaimer
-- TWRP does not currently work on devices shipping Himax and Chipone display panels,
+- TWRP **does not currently work** on devices shipping **Himax and Chipone** display panels,
 if you flash the recovery and find no working touch you are the in the unlucky group.
-- All that needs to be done to reverse this, hardware key force restart and the stock
-recovery-from-boot.p patch will overwrite stock recovery on the "faulty" TWRP and reboot normally
+- To reverse the device from rebooting into the bad TWRP, hardware key force restart and the stock
+recovery-from-boot.p patch will overwrite stock recovery on the "faulty" recovery image and reboot normally
 - In the unlikely case the above fix doesn't work and keeps rebooting into TWRP
 You will need to download the stock recovery.img and flash it using heimdall or Odin
-which will likewise not destroy device data or trigger a factory reset
+which will likewise not destroy device data or trigger a factory reset. 
 
 - A fix is currently being worked on with a few collaborators interested in fixing
 the recovery environment once and for all.
