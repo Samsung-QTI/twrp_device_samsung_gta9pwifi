@@ -2,6 +2,9 @@
 
 The Samsung Galaxy Tab A9+ (codename *gta9pwifi*) is an 11.0″ mid-range Wi-Fi-only tablet introduced in October 2023
 
+# Device Picture
+![Galaxy Tab A9+ WiFi](https://static.skyassets.com/contentstack/assets/blt0f4f68be78df831b/bltabd4e5b21f118779/6557375d53e8ec84c8c47f6d/a9-plus-tabs-group_Z7UqrS.png "A9+ in Navy and Silver")
+
 ## Disclaimer
 - TWRP **does not currently work** on devices shipping **Himax and Chipone** display panels,
 if you flash the recovery and find no working touch you are the in the unlucky group.
@@ -32,5 +35,4 @@ lunch twrp_gta9pwifi-eng
 mka recoveryimage
 ```
 
-# Device Picture
-![Galaxy Tab A9+ WiFi](https://static.skyassets.com/contentstack/assets/blt0f4f68be78df831b/bltabd4e5b21f118779/6557375d53e8ec84c8c47f6d/a9-plus-tabs-group_Z7UqrS.png "A9+ in Navy and Silver")
+
